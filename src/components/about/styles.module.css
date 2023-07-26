@@ -1,0 +1,54 @@
+.container__grid {
+  @apply grid grid-cols-2;
+}
+
+.container__about_title {
+  @apply text-center mt-14 mb-5;
+}
+
+.container__about_title > span.line_1 {
+  @apply block font-medium text-sm md:text-base text-gray-400;
+}
+
+.container__about_title > span.line_2 {
+  @apply block text-2xl  md:text-3xl text-primary leading-10 font-bold;
+}
+
+/* .header__line_1 {
+  @apply block font-medium text-sm md:text-base text-primary;
+}
+
+.header__line_2 {
+  @apply block text-[35px] md:text-[50px] font-semibold leading-normal;
+}
+
+.header__line_3 {
+  @apply block text-[12px] md:text-[16px]  text-gray-400;
+} */
+
+.container__grid__left {
+  @apply col-span-2 md:col-span-1 py-10 relative flex justify-center;
+}
+
+.container__grid__left > div.image_container {
+  @apply bg-slate-500 w-[300px] h-[300px] rounded-2xl m-auto rotate-12 hover:rotate-0 z-10 transition-transform duration-300 ease-out;
+}
+
+.container__grid__left > div.image_bg {
+  @apply w-[300px] h-[300px] rounded-2xl absolute z-0 bg-gradient-to-tr from-primary;
+}
+.container__grid__right {
+  @apply col-span-2 md:col-span-1;
+}
+
+.container__grid__right > div.card_container {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-3 pt-10;
+}
+
+.about_text {
+  @apply text-gray-400 text-justify md:text-left mt-4 text-sm;
+}
+
+.about_button {
+  @apply mt-4 flex justify-center md:justify-start;
+}

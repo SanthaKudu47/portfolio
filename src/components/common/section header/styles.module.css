@@ -1,0 +1,11 @@
+.header {
+  @apply text-center mt-14 mb-5;
+}
+
+.header > span.line_1 {
+  @apply block font-medium text-sm md:text-base text-gray-400;
+}
+
+.header > span.line_2 {
+  @apply block text-2xl  md:text-3xl text-primary leading-10 font-bold;
+}

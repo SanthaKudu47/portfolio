@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid;
+  @apply col-span-1 
+  bg-background_variant 
+  border-background_variant 
+  rounded-lg 
+  p-2  
+  md:p-0 
+  lg:p-2
+  w-full 
+  gap-3 md:gap-1 lg:gap-3 
+  flex 
+  flex-col
+  justify-center text-center aspect-square;
+}
+
+.card:hover {
+  border: 1px solid;
+  @apply border-primary hover:bg-background;
+}
+
+.card__icon {
+  @apply text-primary mx-auto text-2xl md:text-base lg:text-2xl;
+}
+
+.card__heading {
+  @apply text-light text-base;
+}
+
+.card__text {
+  @apply text-gray-400 text-xs;
+}

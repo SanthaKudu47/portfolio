@@ -1,0 +1,23 @@
+.nav_container {
+  @apply flex 
+  flex-row 
+  bg-bg_nav
+  justify-center 
+  rounded-full 
+  w-[310px] 
+  mx-auto 
+  fixed 
+  top-[90vh]  
+  px-4 
+  py-2 
+  backdrop-blur-sm
+  gap-x-4 z-20;
+}
+
+.nav_container a {
+  @apply bg-transparent rounded-full p-3 hover:bg-bg_nav;
+}
+
+.nav_container a.active {
+  @apply rounded-full bg-red-500;
+}

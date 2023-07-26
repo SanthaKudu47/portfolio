@@ -1,0 +1,28 @@
+.card_container {
+  border: 1px solid;
+  @apply col-span-1 
+  bg-background_variant 
+  border-gray-500 
+  rounded-b-2xl my-3 pb-3 h-full;
+}
+
+.card_container:hover {
+  border: 1px solid;
+  @apply border-primary hover:bg-background;
+}
+
+.card_container > div.header {
+  @apply text-center text-background bg-primary rounded-b-2xl m-auto py-5;
+}
+.list_container {
+  @apply text-sm text-gray-300 break-words pt-4  px-4;
+}
+
+.list li {
+  @apply flex items-start py-2;
+}
+
+.list > li > div {
+  margin-top: 2px;
+  @apply px-2 font-bold text-lg;
+}

@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid;
+  @apply col-span-1 
+  bg-background_variant 
+  border-background_variant 
+  rounded-2xl 
+  p-2;
+}
+
+.card:hover {
+  border: 1px solid;
+  @apply border-primary hover:bg-background;
+}
+
+.title {
+  @apply text-primary text-center my-2;
+}
+
+.card > div.elements_container {
+  @apply px-5 grid grid-rows-3 lg:grid-flow-col gap-5 my-10;
+}

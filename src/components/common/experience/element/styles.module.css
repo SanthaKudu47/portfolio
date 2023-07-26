@@ -1,0 +1,14 @@
+.element {
+  @apply flex flex-col;
+}
+
+.element > div.row {
+  @apply flex flex-row items-center;
+}
+
+.element > div.row > div.icon {
+  @apply w-[25px];
+}
+.element > div.row > div.level {
+  @apply text-gray-400 text-xs;
+}

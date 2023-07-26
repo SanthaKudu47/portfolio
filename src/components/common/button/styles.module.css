@@ -1,0 +1,12 @@
+.button_base {
+  @apply text-xs md:text-base p-2 md:p-[10px] rounded-md hover:bg-white hover:text-black hover:border-black;
+}
+
+.button_fill {
+  @apply bg-primary  text-background_variant;
+}
+
+.button_line {
+  border: 1px solid;
+  @apply bg-background  border-primary text-primary;
+}

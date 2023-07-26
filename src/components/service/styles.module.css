@@ -1,0 +1,7 @@
+.service_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.service_container > div.cols {
+  @apply col-span-1;
+}
